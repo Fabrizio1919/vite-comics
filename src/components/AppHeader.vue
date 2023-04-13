@@ -57,7 +57,7 @@ export default {
                 <img src="../assets/img/dc-logo.png" alt="DC Logo">
             </div>
             <ul class="items d-flex m-0 p-0 h-100">
-                <li v-for="(item, index) in menuItems" :class="index === 0 ? 'active' : ''"
+                <li v-for="(item) in menuItems"
                     class="d-flex align-items-center mx-3 h-100 ">
                     <a class="text-dark" :href="item.url">{{ item.title.toUpperCase() }}</a>
                 </li>
@@ -69,12 +69,6 @@ export default {
 
 
 <style>
-header {
-    height: 120px;
-}
 
-a {
-    text-decoration: none;
-}
 
 </style>

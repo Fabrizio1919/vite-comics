@@ -45,7 +45,7 @@ export default {
         <section id="sites_shop">
             <ul class="container d-flex justify-content-between align-items-center py-5 text-light">
                 <li v-for="site in externalSites" class="mx-4">
-                    <img height="60" :src="site.img" :alt="site.title.toUpperCase() + ' Image'" class="me-2">
+                    <img height="50" :src="site.img" :alt="site.title.toUpperCase() + ' Image'" class="me-2">
                     <a :href="site.link" class="text-light">{{ site.title.toUpperCase() }}</a>
                 </li>
             </ul>
@@ -56,7 +56,7 @@ export default {
 <style>
 
 
-#sites_shop {
+/* #sites_shop {
   background-color: #0282f9;
 }
 li {
@@ -65,7 +65,7 @@ li {
 a {
     text-decoration:none;
 }
-
+ */
 
 
 </style>
