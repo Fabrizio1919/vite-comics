@@ -66,8 +66,15 @@ export default {
     </header>
 </template>
 
+
+
 <style>
-a {
-  text-decoration: none;
+header {
+    height: 120px;
 }
+
+a {
+    text-decoration: none;
+}
+
 </style>
