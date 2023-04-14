@@ -41,7 +41,13 @@ export default {
         <div id="jumbo"></div>
         <section id="main_content" class="bg-dark">
             <div class="container">
-                <h1 class="m-0 py-5 text-light"> --Content goes here--</h1>
+                <div class="m-0 py-5 text-light">
+                    <div class="row">
+                        <div class="col">
+                            <itemsComics/>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="sites_shop">
