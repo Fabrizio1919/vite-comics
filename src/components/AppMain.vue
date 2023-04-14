@@ -1,8 +1,14 @@
 <script>
+import dcComics from "../assets/data/dc-comics.json"
+import ItemsComicx from "./ItemsComicx.vue";
 export default {
     name:'AppMain',
+    components: {
+        ItemsComicx
+    },
     data() {
         return {
+            dcComics: dcComics,
             ShopSites: [
                 {
                     img: "../src/assets/img/buy-comics-digital-comics.png",
@@ -44,7 +50,7 @@ export default {
                 <div class="m-0 py-5 text-light">
                     <div class="row">
                         <div class="col">
-                            <itemsComics/>
+                            <ItemsComicx/>
                         </div>
                     </div>
                 </div>
