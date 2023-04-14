@@ -2,7 +2,7 @@
 import dcComics from "../assets/data/dc-comics.json"
 import ItemsComicx from "./ItemsComicx.vue";
 export default {
-    name:'AppMain',
+    name: 'AppMain',
     components: {
         ItemsComicx
     },
@@ -49,9 +49,11 @@ export default {
             <div class="container">
                 <div class="m-0 py-5 text-light">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6">
-                        
-                            <ItemsComicx :thumb="product.thumb" :series="product.series"  :price="product.price" v-for="product in dcComics"/>
-                        
+                        <ItemsComicx :thumb="product.thumb" :series="product.series" :price="product.price"
+                            v-for="product in dcComics" />
+                    </div>
+                    <div class="button text-center">
+                        <button type="button" class="btn btn-primary">LOAD MORE</button>
                     </div>
                 </div>
             </div>
@@ -68,8 +70,6 @@ export default {
 </template>
 
 <style>
-
-
 /* #sites_shop {
   background-color: #0282f9;
 }
@@ -80,6 +80,4 @@ a {
     text-decoration:none;
 }
  */
-
-
 </style>
