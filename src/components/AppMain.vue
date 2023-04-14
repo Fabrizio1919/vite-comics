@@ -48,10 +48,10 @@ export default {
         <section id="main_content" class="bg-dark">
             <div class="container">
                 <div class="m-0 py-5 text-light">
-                    <div class="row">
-                        <div class="col">
-                            <ItemsComicx/>
-                        </div>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6">
+                        
+                            <ItemsComicx :thumb="product.thumb" :series="product.series"  :price="product.price" v-for="product in dcComics"/>
+                        
                     </div>
                 </div>
             </div>

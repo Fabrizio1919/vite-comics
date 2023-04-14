@@ -14,7 +14,7 @@ export default {
 <template>
 <div class="col">
     <div class="itemsComicx">
-        <img :src="thumb" alt="series + 'Image'">
+        <img class="itemsImg" :src="thumb" alt="series + 'Image'">
         <h3>{{ series }}</h3>
         <div class="price">
             <p>{{ price }}</p>
