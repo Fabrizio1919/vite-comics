@@ -38,6 +38,7 @@ export default {
 
 <template>
     <main>
+        <div id="jumbo"></div>
         <section id="main_content" class="bg-dark">
             <div class="container">
                 <h1 class="m-0 py-5 text-light"> --Content goes here--</h1>
