@@ -53,7 +53,7 @@ export default {
                             v-for="product in dcComics" />
                     </div>
                     <div class="button text-center">
-                        <button type="button" class="btn btn-primary">LOAD MORE</button>
+                        <button type="button" class="btn btn-primary rounded-0">LOAD MORE</button>
                     </div>
                 </div>
             </div>
