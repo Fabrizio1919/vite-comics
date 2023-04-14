@@ -2,7 +2,7 @@
 export default {
     data() {
         return {
-            externalSites: [
+            ShopSites: [
                 {
                     img: "../src/assets/img/buy-comics-digital-comics.png",
                     title: "Digital comics",
@@ -44,7 +44,7 @@ export default {
         </section>
         <section id="sites_shop">
             <ul class="container d-flex justify-content-between align-items-center py-5 text-light">
-                <li v-for="site in externalSites" class="mx-4">
+                <li v-for="site in ShopSites" class="mx-4">
                     <img height="50" :src="site.img" :alt="site.title.toUpperCase() + ' Image'" class="me-2">
                     <a :href="site.link" class="text-light">{{ site.title.toUpperCase() }}</a>
                 </li>
